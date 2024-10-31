@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clase personalizada para el fondo */
+.background-image {
+    background-image: url('./images/background.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover; /* Hace que la imagen cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el fondo cubra toda la pantalla */
+  }

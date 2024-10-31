@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Test</title>
+  <link href="./src/output.css" rel="stylesheet"> <!-- Ruta correcta hacia output.css -->
+</head>
+<body class="background-image">
+    <header class="sticky top-0 bg-white shadow">
+            <div class="flex flex-col md:flex-row items-center justify-between p-4 mx-auto max-w-7xl">
+                <!-- Logo -->
+                <a href="index.html"><img src="./src/images/logo.gif" alt="casita" class="h-12 w-auto rounded mb-4 md:mb-0"></a>
+                <!-- Navigation -->
+                <nav id="menu"
+                    class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mb-4 md:mb-0">
+                    <a href="../html/index.php"
+                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Casita</a>
+                    <a href="#"
+                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Nuestros atos</a>
+                    <a href="#"
+                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Nuestros momentos</a>
+                    <a href="../html/about.php"
+                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Cartita</a>
+                </nav>
+<!-- Buttons -->
+<div id="auth-buttons" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+  <a href="../authentication/login.php"> <button
+  class="smky-btn3 relative hover:text-[#13437F] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#4CAF50] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Iniciar Sesión</button></a>
+      <a href="../authentication/register.php"> <button
+              class="smky-btn3 relative hover:text-[#13437F] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#4CAF50] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Registrarse</button></a>
+  </div>
+</div>
+</header>
+               
+
+</body>
+</html>
