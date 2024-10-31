@@ -1,38 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind Test</title>
-  <link href="./src/output.css" rel="stylesheet"> <!-- Ruta correcta hacia output.css -->
-</head>
-<body class="background-image">
-    <header class="sticky top-0 bg-white shadow">
-            <div class="flex flex-col md:flex-row items-center justify-between p-4 mx-auto max-w-7xl">
-                <!-- Logo -->
-                <a href="index.html"><img src="./src/images/logo.gif" alt="casita" class="h-12 w-auto rounded mb-4 md:mb-0"></a>
-                <!-- Navigation -->
-                <nav id="menu"
-                    class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mb-4 md:mb-0">
-                    <a href="../html/index.php"
-                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Casita</a>
-                    <a href="#"
-                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Nuestros atos</a>
-                    <a href="#"
-                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Nuestros momentos</a>
-                    <a href="../html/about.php"
-                        class="smky-btn3 relative hover:text-[#FFCA28] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#2170C0] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Cartita</a>
-                </nav>
-<!-- Buttons -->
-<div id="auth-buttons" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-  <a href="../authentication/login.php"> <button
-  class="smky-btn3 relative hover:text-[#13437F] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#4CAF50] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Iniciar Sesión</button></a>
-      <a href="../authentication/register.php"> <button
-              class="smky-btn3 relative hover:text-[#13437F] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#4CAF50] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Registrarse</button></a>
-  </div>
-</div>
-</header>
-               
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Test</title>
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="background-image font-hello-kitty">
+    <header class="sticky top-0 bg-gray-50 shadow-xl">
+      <div
+        class="flex flex-col md:flex-row items-center justify-between p-4 mx-auto max-w-7xl"
+      >
+        <!-- Logo -->
+        <a href="index.html"
+          ><img
+            src="./src/images/logo.gif"
+            alt="casita"
+            class="h-12 w-auto rounded mb-4 md:mb-0"
+        /></a>
+        <!-- Navigation -->
+        <nav
+          id="menu"
+          class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mb-4 md:mb-0"
+        >
+          <a
+            href="../html/index.php"
+            class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#BBA393] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#FAD9E9] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >Casita</a
+          >
+          <a
+            href="#"
+            class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#BBA393] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#FAD9E9] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >Nuestros atos</a
+          >
+          <a
+            href="#"
+            class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#BBA393] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#FAD9E9] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >Nuestros momentos</a
+          >
+          <a
+            href="../html/about.php"
+            class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#BBA393] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#FAD9E9] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >Cartita</a
+          >
+        </nav>
+        <!-- Buttons -->
+        <div
+          id="auth-buttons"
+          class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4"
+        >
+          <a href="../authentication/login.php">
+            <button
+              class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#86469C] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#BC7FCD] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >
+              Beso a machi
+            </button></a
+          >
+          <a href="../authentication/register.php">
+            <button
+              class="font-hello-kitty text-lg smky-btn3 relative hover:text-[#86469C] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 after:transition-all after:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#BC7FCD] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600"
+            >
+              Abachito
+            </button></a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="grid grid-cols-3 gap-4 m-4">
+        <div class="flex flex-col items-start font-hello-kitty backdrop-blur-sm rounded-lg shadow-xl">
+          <p class="text-5xl text-[#86469C] pt-6">
+            Bienvenida amor de mi vida!💗
+          </p>
+          <p class="text-lg mt-6">
+            Te amo mucho y quiero demostrartelo mediante la creación de esta
+            web!❤️
+          </p>
+          <p class="text-lg mt-6">
+            Pasa a navegar en esta web que he hecho con cariño sobre nosotros y
+            nuestros lindos momentos, aparte de mostrarte nuestros gatitos
+            bellos, nuestros paseos, nuestro aniversario y mucho mas.
+          </p>
+        </div>
+        <div class="flex justify-center items-center">
+          <img
+            src="./src/images/kitty.jpg"
+            alt=""
+            class="h-[800px] w-auto rounded-lg shadow-xl"
+          />
+        </div>
+        <div class="flex justify-center items-center">
+          <img
+            src="./src/images/jojo.jpeg"
+            alt=""
+            class="h-[800px] w-auto rounded-lg shadow-xl"
+          />
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>

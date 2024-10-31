@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.{html,js}', // Incluye archivos en src con extensiones html y js
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'hello-kitty': ['"Patrick Hand"', 'cursive'], // Agrega la fuente "Patrick Hand"
+      },
+    },
   },
   plugins: [],
 }
